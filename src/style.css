@@ -18,8 +18,10 @@ li {
   padding: 0;
   font-size: 14px;
   font-weight: 100px;
-  text-transform: capitalize;
   color: #919090;
+}
+li:first-letter {
+  text-transform: capitalize;
 }
 .weather {
   margin-bottom: 20px;
