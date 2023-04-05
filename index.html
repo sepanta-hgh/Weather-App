@@ -10,6 +10,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Coco Weather App</title>
   </head>
@@ -17,10 +18,10 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <h1>New York</h1>
+          <h1 id="city"></h1>
           <ul>
             <li>Friday 6:00</li>
-            <li class="weather">Mostly Sunny</li>
+            <li class="weather" id="description"></li>
           </ul>
           <div class="row">
             <div class="col-6">
@@ -30,7 +31,7 @@
                   alt="Mostly Sunny"
                 />
                 <div class="temperature">
-                  <strong>16</strong
+                  <strong id="temperature"></strong
                   ><span class="units"
                     >°C|<a href="a" id="fahrenheit">°F</a></span
                   >
@@ -39,9 +40,8 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation:1%</li>
-                <li>Humidity:82%</li>
-                <li>Wind:18 km/h</li>
+                <li>Humidity:<span id="humidity"></span>%</li>
+                <li>Wind:<span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
