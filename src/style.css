@@ -20,6 +20,9 @@ li {
   font-weight: 100px;
   color: #919090;
 }
+.weather {
+  margin-bottom: 20px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -29,4 +32,23 @@ li {
   display: block;
   border: 2px solid rgb(224, 220, 220);
   border-radius: 5px;
+}
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  font-size: 16px;
+  position: relative;
+  top: -29px;
+}
+#fahrenheit {
+  text-decoration: none;
 }
