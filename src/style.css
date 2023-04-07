@@ -52,6 +52,20 @@ li:first-letter {
   position: relative;
   top: -29px;
 }
-#fahrenheit {
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
   text-decoration: none;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+  cursor: default;
+}
+#fahrenheit-link {
+  text-decoration: none;
+  cursor: default;
+}
+#celcius-link {
+  text-decoration: none;
+  cursor: default;
 }
