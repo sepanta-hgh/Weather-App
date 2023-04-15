@@ -76,11 +76,3 @@ li:first-letter {
 .weather-forecast-temperature {
   font-size: 13px;
 }
-#fahrenheit-link {
-  text-decoration: none;
-  cursor: default;
-}
-#celcius-link {
-  text-decoration: none;
-  cursor: default;
-}
